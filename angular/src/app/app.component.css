@@ -16,3 +16,13 @@
     border-radius: 8px;
 }
 
+.center{
+    /* margin:0 auto; */
+    margin-top: 2px;
+    margin-bottom: 250px;
+    margin-right: 2px;
+    margin-left: 2px;
+    display: block;
+    max-width: 99%;
+    height: 99%;
+}
