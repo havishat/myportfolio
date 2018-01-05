@@ -21,11 +21,19 @@ a {
 h1,
 h2,
 h3,
-h4,
 h5,
 h6 {
   font-weight: 700;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Dancing Script'; 
+  text-shadow: 1px 1px gray
+}
+
+h4 {
+  font-weight: 700;
+  font-family: 'Dancing Script'; 
+  text-shadow: 1px 1px gray;
+  color: blue;
+}
 
 section {
   padding: 100px 0; }
@@ -366,7 +374,9 @@ header.masthead {
     margin-top: 0;
     color: inherit; }
     .timeline .timeline-heading h4.subheading {
-      text-transform: none; }
+      text-transform: none; 
+      color: blue;
+      }
   .timeline .timeline-body > ul,
   .timeline .timeline-body > p {
     margin-bottom: 0; }
