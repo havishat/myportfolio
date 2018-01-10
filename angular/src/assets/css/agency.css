@@ -28,6 +28,11 @@ h6 {
   text-shadow: 1px 1px gray
 }
 
+h3 {
+  color: blue;
+  text-shadow: 1px 1px gray
+}
+
 h4 {
   font-weight: 700;
   font-family: 'Dancing Script'; 

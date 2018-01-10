@@ -26,3 +26,8 @@
     max-width: 99%;
     height: 99%;
 }
+
+.belt{
+    display: inline-block;
+    vertical-align: top;
+}
