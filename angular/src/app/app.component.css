@@ -31,3 +31,35 @@
     display: inline-block;
     vertical-align: top;
 }
+
+.parallax-projects[_ngcontent-c1] {
+    background-image: url(../assets/images/projects.jpg);
+}
+
+.parallax-hobbies[_ngcontent-c1] {
+    background-image: url(../assets/images/hobbies.jpg);
+}
+
+.parallax-skills[_ngcontent-c1] {
+    background-image: url(../assets/images/coding.jpg);
+}
+
+.parallax-awards[_ngcontent-c1] {
+    background-image: url(../assets/images/dream.jpg);
+}
+
+.parallax-contacts[_ngcontent-c1]{
+
+    background-image: url(../assets/images/contact.jpg);
+
+}
+
+.parallax[_ngcontent-c1], .parallax-contacts[_ngcontent-c1], .parallax-projects[_ngcontent-c1], .parallax-hobbies[_ngcontent-c1], .parallax-skills[_ngcontent-c1], .parallax-awards[_ngcontent-c1] {
+    margin-top: 40px;
+    min-height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
