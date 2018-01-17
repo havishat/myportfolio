@@ -32,6 +32,10 @@
     vertical-align: top;
 }
 
+
+.parallax-aboutme[_ngcontent-c1] {
+    background-image: url(../assets/images/aboutme.jpg);
+}
 .parallax-projects[_ngcontent-c1] {
     background-image: url(../assets/images/projects.jpg);
 }
@@ -54,7 +58,7 @@
 
 }
 
-.parallax[_ngcontent-c1], .parallax-contacts[_ngcontent-c1], .parallax-projects[_ngcontent-c1], .parallax-hobbies[_ngcontent-c1], .parallax-skills[_ngcontent-c1], .parallax-awards[_ngcontent-c1] {
+.parallax[_ngcontent-c1], .parallax-aboutme[_ngcontent-c1], .parallax-contacts[_ngcontent-c1], .parallax-projects[_ngcontent-c1], .parallax-hobbies[_ngcontent-c1], .parallax-skills[_ngcontent-c1], .parallax-awards[_ngcontent-c1] {
     margin-top: 40px;
     min-height: 200px;
     background-attachment: fixed;
